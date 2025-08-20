@@ -98,3 +98,18 @@ ul li span{
 ul li span:hover{
     background: #edeef0;
 }
+@media (max-width: 480px) {
+  .row {
+    flex-wrap: wrap;      /* allow input + button to wrap if needed */
+    padding: 10px 12px;   /* smaller padding on mobile */
+  }
+
+  input {
+    font-size: 14px;      /* smaller text */
+  }
+
+  button {
+    padding: 10px 15px;   /* smaller button so it doesn’t push row */
+    font-size: 14px;
+  }
+}
